@@ -3334,7 +3334,7 @@ class ExtendedValue {
       formulaValue = _json["formulaValue"];
     }
     if (_json.containsKey("numberValue")) {
-      numberValue = _json["numberValue"];
+      numberValue = _json["numberValue"].toDouble();
     }
     if (_json.containsKey("stringValue")) {
       stringValue = _json["stringValue"];
@@ -4403,7 +4403,7 @@ class PieChartSpec {
       legendPosition = _json["legendPosition"];
     }
     if (_json.containsKey("pieHole")) {
-      pieHole = _json["pieHole"];
+      pieHole = _json["pieHole"].toDouble();
     }
     if (_json.containsKey("series")) {
       series = new ChartData.fromJson(_json["series"]);
