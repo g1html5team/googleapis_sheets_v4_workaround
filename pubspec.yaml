@@ -1,9 +1,8 @@
 name: 'googleapis_sheets_v4_workaround'
-version: 0.0.1
+version: 2.0.1
 
 environment:
-  sdk: '>=1.0.0 <2.0.0'
+  sdk: '>=2.0.0'
 
 dependencies:
-  browser: '>=0.10.0 <0.11.0'
-  _discoveryapis_commons:
+  _discoveryapis_commons: ^0.1.9
